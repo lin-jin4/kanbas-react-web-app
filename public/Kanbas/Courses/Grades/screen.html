@@ -1,41 +1,68 @@
 <html>
-    <head> </head>
+    <head><link rel="stylesheet" href="/Kanbas/styles.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />    
+        <link rel="stylesheet" href="/Kanbas/styles.css" />
+        <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+        <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+   
+        <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+        <link href="/libs/font-awesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/libs/font-awesome/css/brands.css" rel="stylesheet">
+  <link href="/libs/font-awesome/css/solid.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
+
+    </head>
     <body>
+        
         <table>
             <tbody>
                 <tr>
-                    <td valign="top"><ul>
+                    <td valign="top"><ul class="wd-kanbas-navigation">
                         <li><a href="/Kanbas/Account/Profile/screen.html">
-                           Account</a></li>
+                            <i class="fa fa-user" style="color: white;"></i> Account</a></li>
                         <li>
-                         <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                         <a href="/Kanbas/Dashboard/screen.html">
+                            <i class="fa fa-tachometer"></i> Dashboard</a>
+                        </li>
+                        <li class="wd-active">
+                         <a href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book"></i>Courses</a>
                         </li>
                         <li>
-                         <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                        </li>
-                        <li>
-                         <a href="/Kanbas/Calendar/index.html">Calendar</a></li>
-                        <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
+                         <a href="/Kanbas/Calendar/index.html">
+                            <i class="fa fa-calendar"></i> Calendar</a></li>
+                        <li><a href="/Kanbas/Inbox/index.html">
+                            <i class="fa fa-inbox"></i><br/>Inbox</a></li>
                        
                        <li>
-                        <a href="/Kanbas/History">History</a>
+                        <a href="/Kanbas/History">
+                            <i class="fa fa-history"></i>History</a>
                        </li>
                        <li>
-                        <a href="/Kanbas/Studio">Studio</a>
+                        <a href="/Kanbas/Studio">
+                            <i class="fa fa-ticket"></i><br/>Studio</a>
                        </li>
                        <li>
-                        <a href="/Kanbas/Commons">Commons</a>
+                        <a href="/Kanbas/Commons">
+                            <i class="fa fa-sliders"></i>Commons</a>
                        </li>
                        <li>
-                        <a href="/Kanbas/Help">Help</a>
+                        <a href="/Kanbas/Help">
+                            <i class="fa fa-star"></i><br/> Help</a>
                        </li>
                     </ul></td>
                     
-                    <td valign="top"><ul>
+                    <td valign="top"> <ul class="wd-navigation">
                         <li>
                           <a href="/Kanbas/Courses/Home/screen.html">
                             Home</a></li>
-                        <li><a href="/Kanbas/Courses/Modules/screen.html">
+                        <li>
+                            <a href="/Kanbas/Courses/Modules/screen.html">
                             Modules</a></li>
                         <li><a href="/Kanbas/Courses/Piazza/index.html">
                             Piazza</a></li>
@@ -45,7 +72,7 @@
                                 Assignments</a></li>
                         <li><a href="/Kanbas/Courses/Quizzes">
                                 Quizzes</a></li>
-                        <li><a href="/Kanbas/Courses/Grades/screen.html">
+                        <li class="wd-active"><a href="/Kanbas/Courses/Grades/screen.html">
                             Grades</a></li>
                     
                             <li>
@@ -73,60 +100,79 @@
                                         Settings</a></li>
                       </ul></td>
 
+                      
                     <td valign="top">        
                         <table>
                             <tbody>
                                 <tr>
+
+                                    <td valign="top">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <a>
+                                                        <i class="fa fa-navicon (alias)">CS5610.11744.202310</i>
+                                                    </a> > Grades
+                                                    </td>
+                                                </tr><br/><hr/>
+                                            </tbody>
+                                        
+
                                     <td>
-                                        <select>
-                                            <option>Gradebook</option>
-                                            <option>Change Gradebook View</option>
-                                            <option>Traditional Gradebook</option>
-                                            <option>Individual Gradebook</option>
-                                        </select>
+                            <div class="mb-3 d-flex justify-content-end">
+                                            <button type="button" class="btn btn-light">
+                                                <i class="fa fa-sign-in"></i>
+                                                Import</button>
+                                                <button type="button" class="btn btn-light"> <i class="fa fa-sign-out"></i> <select> <option> Export</option> </select> </button>
+                                                    <button type="button" class="btn btn-light">
+                                                        <i class="fa fa-cog"></i>
+                                                        </button>
+                                        </div>
                                     </td>
-                                    <td>
-                                        <button>Import</button>
-                                        <select>
-                                            <option>Export</option>
-                                            <option>Export Current Gradebook View</option>
-                                            <option>Export Entire Gradebook</option>
-                                        </select>
-                                        <button>Configure</button>
-                                    </td>
+
+                                   
+                                    
                                 </tr>
                                 
                             </tbody>
                         </table><br />
-                           <table>
+                         
+                           <table width="70%">
                                 <tbody>
-                                    <tr>
-                                        <td>
-                            <h4>Student Names</h4>
-                            <input placeholder="Search Students"><br />
-                            <!-- <select>
-                                <option>Joe</option>
-                                <option>Jack</option>
-                                <option>James</option>
-                                <option>Jane</option>
-                            </select> -->
-                            <h4>Assignment Names</h4>
-                            <input placeholder="Search Assignments"><br />
-                            <!-- <select>
-                                <option>A1</option>
-                                <option>A2</option>
-                                <option>A3</option>
-                                <option>A4</option>
-                            </select> -->
-                        </tr>
+                               
+        <div class="mb-3 d-flex justify-content-end align-items-center" width="50%">
+            <label for="assignmentName" class="form-label me-3">Student Names</label>
+            <select id="assignmentName" class="form-select">
+                <option>Search Students</option>
+                <option>QUIZ</option>
+            </select>
+        </div>
+
+        <div class="mb-3 d-flex justify-content-end align-items-center" width="50%">
+            <label for="assignmentName" class="form-label me-3">Assignment Names</label>
+            <select id="assignmentName" class="form-select">
+                <option>Search Assignments</option>
+                <option>QUIZ</option>
+            </select>
+        </div>
+                                   
+                                        
+                           
+<!--                             
                     </td>
                 </tr>
                 </tbody>
-                </table><br />
+                </table><br /> -->
                 
-                <button>Apply Filters</button> <br />
+               
+                    <div>
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-filter"></i>
+                            Apply Filters</button>
+                    </div>
                 
-                <br /><table border="1">
+                
+                <br /><table class="table table-bordered table-striped" border="1" width="60%">
                     <thread>
                         <tr>
                             <th>Student Name</th>
@@ -144,104 +190,104 @@
                     <tbody>
                         <tr>
                             <td>Alice Wonderland</td>
-                            <td>98</td>
-                            <td>89</td>
-                            <td>87</td>
-                            <td>90</td>
-                            <td>89</td>
-                            <td>94</td>
-                            <td>88</td>
-                            <td>87</td>
-                            <td>100</td>
+                            <td>98%</td>
+                            <td>89%</td>
+                            <td>87%</td>
+                            <td>90%</td>
+                            <td>89%</td>
+                            <td>94%</td>
+                            <td>88%</td>
+                            <td>87%</td>
+                            <td>100%</td>
                         </tr>
                     </tbody>
                     <tbody>
                         <tr>
                             <td>Princes Leia</td>
-                            <td>98</td>
-                            <td>80</td>
-                            <td>87</td>
-                            <td>86</td>
-                            <td>100</td>
-                            <td>94</td>
-                            <td><input value="85" /></td>
-                            <td>84</td>
-                            <td>92</td>
+                            <td>98%</td>
+                            <td>80%</td>
+                            <td>87%</td>
+                            <td>86%</td>
+                            <td>100%</td>
+                            <td>94%</td>
+                            <td><input value="85%" /></td>
+                            <td>84%</td>
+                            <td>92%</td>
                         </tr>
                     </tbody>
                 
                     <tbody>
                         <tr>
                             <td>Luke Skywalker</td>
-                            <td><input value="99" /></td>
-                            <td>88</td>
-                            <td>97</td>
-                            <td>82</td>
-                            <td>96</td>
-                            <td>93</td>
-                            <td>95</td>
-                            <td>100</td>
-                            <td>93</td>
+                            <td><input value="99%" /></td>
+                            <td>88%</td>
+                            <td>97%</td>
+                            <td>82%</td>
+                            <td>96%</td>
+                            <td>93%</td>
+                            <td>95%</td>
+                            <td>100%</td>
+                            <td>93%</td>
                         </tr>
                     </tbody>
                 
                     <tbody>
                         <tr>
                             <td>Han Solo</td>
-                            <td>83</td>
-                            <td>99</td>
-                            <td>94</td>
-                            <td>98</td>
-                            <td>86</td>
-                            <td>85</td>
-                            <td><input value="86" /></td>
-                            <td>80</td>
-                            <td>84</td>
+                            <td>83%</td>
+                            <td>99%</td>
+                            <td>94%</td>
+                            <td>98%</td>
+                            <td>86%</td>
+                            <td>85%</td>
+                            <td><input value="86%" /></td>
+                            <td>80%</td>
+                            <td>84%</td>
                         </tr>
                     </tbody>
                 
                     <tbody>
                         <tr>
                             <td>Lando Calresian</td>
-                            <td>83</td>
-                            <td><input value="92" /></td>
-                            <td>80</td>
-                            <td>80</td>
-                            <td>92</td>
-                            <td>92</td>
-                            <td>94</td>
-                            <td>87</td>
-                            <td>95</td>
+                            <td>83%</td>
+                            <td><input value="92%" /></td>
+                            <td>80%</td>
+                            <td>80%</td>
+                            <td>92%</td>
+                            <td>92%</td>
+                            <td>94%</td>
+                            <td>87%</td>
+                            <td>95%</td>
                         </tr>
                     </tbody>
                 
                     <tbody>
                         <tr>
                             <td>Boba Fet</td>
-                            <td>85</td>
-                            <td>89</td>
-                            <td>94</td>
-                            <td>83</td>
-                            <td>83</td>
-                            <td>84</td>
-                            <td>91</td>
-                            <td>87</td>
-                            <td>96</td>
+                            <td>85%</td>
+                            <td>89%</td>
+                            <td>94%</td>
+                            <td>83%</td>
+                            <td>83%</td>
+                            <td>84%</td>
+                            <td>91%</td>
+                            <td>87%</td>
+                            <td>96%</td>
                         </tr>
                     </tbody>
                 
                     <tbody>
                         <tr>
                             <td>Darth Vader</td>
-                            <td>81</td>
-                            <td>81</td>
-                            <td><input value="96" /></td>
-                            <td>80</td>
-                            <td>89</td>
-                            <td>88</td>
-                            <td>82</td>
-                            <td>80</td>
-                            <td>82</td>
+                            <td>81%</td>
+                            <td>81%</td>
+                            <td><input value="96%" /></td>
+                            <td>80%</td>
+                            <td>89%</td>
+                            <td>88%</td>
+                            <td>82%</td>
+                            <td>80%</td>
+                            <td>82%</td>
                 
                         </tr>
                     </tbody>
@@ -294,15 +340,15 @@
                     <tbody>
                         <tr>
                             <td>Yoda</td>
-                            <td>80</td>
-                            <td>89</td>
-                            <td>99</td>
-                            <td>89</td>
-                            <td>96</td>
-                            <td>85</td>
-                            <td>96</td>
-                            <td>92</td>
-                            <td>85</td>
+                            <td>80%</td>
+                            <td>89%</td>
+                            <td>99%</td>
+                            <td>89%</td>
+                            <td>96%</td>
+                            <td>85%</td>
+                            <td>96%</td>
+                            <td>92%</td>
+                            <td>85%</td>
                         </tr>
                     </tbody>
                 
