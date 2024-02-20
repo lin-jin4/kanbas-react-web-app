@@ -1,0 +1,7 @@
+.list-group, .list-group-item {
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.rounded-40 {
+    border-radius: 40%; /* 40% border radius */
+}

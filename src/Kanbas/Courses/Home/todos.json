@@ -1,0 +1,6 @@
+[
+    { "title": "Grade A1",          "status": "CANCELED",     "done": true   },
+    { "title": "Grade A2",   "status": "IN PROGRESS",  "done": false  },
+    { "title": "Grade A3",      "status": "DEFERRED",     "done": false  }
+   ]
+   
